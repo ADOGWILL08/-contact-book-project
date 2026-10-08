@@ -1,0 +1,117 @@
+
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 1
+Enter the contact's name: Alice
+Enter the phone number (digits only, 7-15 digits): 5551234567 
+Contact 'Alice' added successfully.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 1
+Enter the contact's name: Bob
+Enter the phone number (digits only, 7-15 digits): 5559876543 
+Contact 'Bob' added successfully.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 1
+Enter the contact's name: Alice
+Error: 'Alice' already exists. No duplicate was added.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 1
+Enter the contact's name: Carl
+Enter the phone number (digits only, 7-15 digits): 12ab
+Error: phone number must contain only digits and be 7 to 15 digits long.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 2
+
+--- All Contacts ---
+1. Alice: 5551234567
+2. Bob: 5559876543
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 3
+Enter a name (or part of a name) to search for: ali
+
+--- Search Results for 'ali' ---
+Alice: 5551234567
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 3
+Enter a name (or part of a name) to search for: zed 
+No contacts found matching 'zed'.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 4
+Enter the name of the contact to delete: Alice
+Contact 'Alice' was deleted.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 2
+
+--- All Contacts ---
+1. Bob: 5559876543
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 9
+Error: invalid choice. Please choose a number from 1 to 5.
+
+Contact Book Menu:
+1. Add New Contact
+2. View All Contacts
+3. Search Contact
+4. Delete Contact
+5. Exit
+Enter your choice (1-5): 5
+Goodbye!
